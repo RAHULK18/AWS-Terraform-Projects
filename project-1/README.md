@@ -8,7 +8,7 @@ It follows real-world DevOps best practices — modular design, environment sepa
 
 ## 📁 Project Structure
 
-.
+```bash
 ├── bootstraps/ # Step 1 – Create backend (S3 bucket for Terraform state)
 │ ├── main.tf
 │ └── terraform.tfstate
