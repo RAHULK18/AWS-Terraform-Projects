@@ -6,6 +6,7 @@ provider "aws" {
 resource "aws_s3_bucket" "tf_state" {
   bucket = "demo-2025-terraform-state"
   acl    = "private"
+  force_destroy = true
 
   tags = {
     Name        = "Terraform State Bucket"
