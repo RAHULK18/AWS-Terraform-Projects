@@ -1,0 +1,51 @@
+# Ignore all Terraform working directories
+**/.terraform/
+**/.terraform/**
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate*
+*.tfstate.backup
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore variable files
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Ignore plan outputs
+*.plan
+tfplan
+plan.out
+
+# Ignore lock file
+.terraform.lock.hcl
+
+# Ignore AWS credentials
+.aws/
+*.pem
+*.key
+*.crt
+*.cer
+.env
+.env.*
+config
+credentials
+
+# Ignore editor junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*~
+
