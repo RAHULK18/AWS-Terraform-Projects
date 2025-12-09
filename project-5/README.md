@@ -4,7 +4,7 @@ Terraform Project – Project-5
 
 This project provisions a secure, scalable, and fully static website hosting architecture on AWS using S3 + CloudFront with Origin Access Control (OAC).
 The entire infrastructure is deployed and managed using Terraform.
-
+```bash
 🚀 Architecture Overview
 Key Components
 
